@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugerencia</title>
+    <link rel="stylesheet" href="estilos/sugerencias.css">
+</head>
+<body>
+    <h1>Bloodborne</h1>
+    <ul class="menu">
+        <li class="menu"><a href="index.html">Inicio</a></li>
+        <li class="menu"><a href="peleas.html">Peleas</a></li>
+        <li class="menu"><a href="consejos.html">Consejos</a></li>
+        <li class="menu"><a href="datos curiosos.html">Datos Curiosos</a></li>
+        <li class="menu"><a href="foro.html">Foro</a></li>
+        <li class="menu"><a href="personajes.html">Personajes</a></li>
+        <li class="menu"><a href="ayuda.html">Ayuda</a></li>
+        <li class="menu"><a href="sugerencia.html">Sugerencias</a></li>
+
+    </ul>
+
+    <!---------------------    -------------------->
+
+    <div class="subtitle">
+        <h1>Formulario de sugerencias a la pagina </h1>
+
+    </div>
+
+        <div class="formulario">
+            <form method="POST">
+                <fieldset>
+                    <legend>Datos del cazador</legend>
+    
+              <!---------------------  Primer dato  numero de persona  -------------------->
+    
+                    <label for="idpersona">ID Persona:</label><br />
+                    <input type="text"id="idpersona" name="idpersona" readonly="true" value="10"/><br /><br />
+                     <input type="hidden" id="sistema" name="sistema" value="sap">
+                    
+                      <!---------------------   Dato de nombre  -------------------->
+    
+                  <label for="nombre">Nombre:</label><br />
+                  <input type="text"id="nombre"placeholder="Escribe tu nombre"required="true"/><br /><br />
+           
+                      <!--------------------- Dato de apellido   -------------------->
+    
+                  <label for="apellido">Apellido:</label><br />
+                  <input type="text"id="apellido "placeholder="Escribe tu apellido"
+                  /><br /><br />
+          
+                      <!--------------------- Dato de E-mail   -------------------->
+    
+                  <label for="email">Email:</label><br />
+                  <input type="email"id="email"name="email"placeholder="E-mail"
+                  /><br /><br />
+                          <!--------------------- Dato de edad   -------------------->
+    
+                  <label for="edad">Edad</label><br />
+                  <input type="number" id="edad" name="edad"placeholder="Edad" /><br /><br />
+                             <!---------------------  Genero radio botton  -------------------->
+    
+                  <label>Genero</label><br />
+                  <input type="radio" id="femenino" name="genero" value="femenino" />
+                  <label for="femenino">Femenino</label><br />
+                  <input type="radio" id="masculino" name="genero" value="masculino" />
+                  <label for="masculino">Masculino</label><br />
+                  <input type="radio" id="otro" name="genero" value="otro" />
+                  <label for="otro">Otro</label><br /><br />
+                             <!--------------------- Musica eleccion multiple   -------------------->
+     
+                  <label>Generos de musica favoritos</label><br />
+                  <input type="checkbox" id="clasica" name="musica" value="clasica" />
+                  <label for="Clasica">Clasica</label><br />
+                  <input type="checkbox" id="Rock" name="musica" value="Rock" />
+                  <label for="Clasica">Rock</label><br />
+                  <input type="checkbox" id="Jazz" name="musica" value="Jazz" />
+                  <label for="Clasica">Jazz</label><br />
+                  <input type="checkbox" id="Salsa" name="musica" value="Salsa" />
+                  <label for="Clasica">Salsa</label><br /><br />
+                                     <!--------------------- Menu desplegable   -------------------->
+    
+                  <label for="jefes">Jefe mas dificil para ti de Blodborne</label><br />
+                  <select name="jefes" id="jefes">
+                    <option value="Seleccionar">Seleccionar</option>
+                    <option value="Lady Maria">Lady Maria</option>
+                    <option value="Ludwing">Ludwing</option>
+                    <option value="Padre gascoine">Padre Gascoine</option>
+                    <option value="Amelia">Amelia</option>
+                    <option value="ROM la araña vacua">Rom la araña vacua</option>
+                    <option value="kos">kos o como algunos le dicen Kosm</option>
+                  </select>
+                  <br /><br />
+    
+                      <!--------------------- Recuadro comentario   -------------------->
+    
+                  <label for="comentario">Comentarios</label><br /><br />
+                  <textarea
+                    name="comentario"
+                    id="comentario"
+                    cols="55"
+                    rows="20"
+                  ></textarea>
+          
+                  <br /><br /><input type="submit" value="Enviar" />
+                  <input
+                    type="submit" formnovalidate="formnovalidate" value="Enviar sin validar"/>
+                    <INput type="reset" value="Reset"></INput>
+                </fieldset>
+              </form>
+          
+    
+    
+        </div>
+        
+    
+ 
+</body>
+</html>
