@@ -55,7 +55,12 @@ li.menu a:hover{
     gap: 25px;
     justify-content: center;
 }
-
+.cartas{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
 
 @media screen and (max-width:768px){
     .caja-Personajes{

@@ -48,10 +48,8 @@ div.caja{
     width: 100%;
 }
 .carrusel{
-    width: 100%;
-    margin-top: 300px;
-    margin-left: 500px;
-    margin-bottom: 200px;  
+    width: 90%;
+    margin: auto;
 }
 .carrusel1{
     width: 50%;
