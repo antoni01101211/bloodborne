@@ -23,7 +23,38 @@
         <li class="menu"><a href="sugerencia.html">Sugerencias</a></li>
     </ul>
 
+    <section class="menu-canvas">
+        <a class="btn btn-dark" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            Tutorial
+          </a>
+          <button class="btn btn-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Ayuda online
+          </button>
+          
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Bloodborne help</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Que encuentres tu valia en el mundo de la vigilia
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                  Elige en que zona estas
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">yharnam</a></li>
+                  <li><a class="dropdown-item" href="#">Las alcantarillas</a></li>
+                  <li><a class="dropdown-item" href="#">Bosques olvidados</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
+    </section>
+   
     <!-- Menu-->
 </body>
 </html>
