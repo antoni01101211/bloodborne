@@ -1,0 +1,64 @@
+section.conjunto{
+    display: flex;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    gap: 25px;
+    div.botones{
+        width: 15%;
+        margin: auto;
+        ul.jefes{
+            list-style-type: none;
+            width: 90%;
+            margin: auto;
+            li.jefes a{
+                background-color: black;
+                border-radius: 10px 0;
+                color: red;
+                margin: 10px;
+                padding: 10px;
+                text-decoration: none;
+                display: block;
+                text-align: center;
+                &:hover{
+                    background-color: white;
+                    color: black;
+                }
+        }       
+        }
+    }
+   div.video{
+        width: 65%;
+        height: 700px;
+        margin: auto;
+        margin-left:150px;
+        iframe{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    div.video1{
+        width: 65%;
+        height: 700px;
+        margin: auto;
+        margin-left: 150px;
+        iframe{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    div.video2{
+        width: 65%;
+        height: 700px;
+        margin: auto;
+        margin-left: 150px;
+        iframe{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

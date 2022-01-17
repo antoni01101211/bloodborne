@@ -1,0 +1,59 @@
+h1{
+    color: red;
+    background-color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 70px;
+    opacity: 0.8;
+}
+
+body{
+    margin: 0px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/b6.png);
+}
+
+ul.menu{
+    list-style-type: none;
+    background-color:red;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.8;
+    li {
+        a{
+            float: left;
+            font-size: 20px;
+            display: block;
+            padding: 10px;
+            color: white;
+            text-decoration: none; 
+            
+            &:hover{
+                background-color: black;
+                color: red;
+            } 
+    } 
+    }
+}
+
+div.subtitle{ 
+         width: 90%;
+         margin: auto;
+         margin-top: 100px;
+         margin-bottom: 100px;
+         h1{
+            color: red;
+            background-color: black;
+            text-align: center;
+            opacity: 0.8;
+         }
+}
+@import "inicio";
+@import "peleas";
+@import "ayuda";
+@import "sugerencias";
+@import "personajes";
