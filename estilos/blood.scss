@@ -1,5 +1,7 @@
+@import "variables";
+$color-blood:red;
 h1{
-    color: red;
+    color: $color-blood;
     background-color: black;
     text-align: center;
     margin: 0px;
@@ -18,7 +20,7 @@ body{
 
 ul.menu{
     list-style-type: none;
-    background-color:red;
+    background-color:$color-blood;
     overflow: hidden;
     margin: 0px;
     padding: 0px;
@@ -34,7 +36,7 @@ ul.menu{
             
             &:hover{
                 background-color: black;
-                color: red;
+                color: $color-blood;
             } 
     } 
     }
@@ -46,7 +48,7 @@ div.subtitle{
          margin-top: 100px;
          margin-bottom: 100px;
          h1{
-            color: red;
+            color: blood;
             background-color: black;
             text-align: center;
             opacity: 0.8;
