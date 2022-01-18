@@ -124,6 +124,8 @@ section.obras div.game {
 section.obras div.game:hover {
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 section.obras div.game img {
