@@ -235,6 +235,18 @@ div.formulario {
   opacity: 0.8;
 }
 
+div.formulario div input.comentario {
+  width: 200px;
+  height: 50px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+div.formulario div input.comentario:focus {
+  width: 500px;
+  height: 250px;
+}
+
 section.caja-personajes {
   width: 90%;
   height: 700px;

@@ -8,4 +8,14 @@ div.formulario{
     margin: auto;
     margin-bottom: 150px;
     opacity: 0.8;
+    div input.comentario{
+      width: 200px;
+      height: 50px;
+      transition: all 1s;
+      &:focus{
+          width: 500px;
+          height: 250px;
+
+      }
+    }
 }
