@@ -15,9 +15,8 @@ section.conjunto{
             width: 90%;
             margin: auto;
             li.jefes a{
-                background-color: black;
+                @include color;
                 border-radius: 10px 0;
-                color: red;
                 margin: 10px;
                 padding: 10px;
                 text-decoration: none;

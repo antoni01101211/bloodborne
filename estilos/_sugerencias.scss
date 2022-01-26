@@ -1,6 +1,5 @@
 div.formulario{
-    background-color: black;   
-    color:red;
+    @include color;
     font-weight: bolder;
     border-radius: 10px;
     height: 1400px;

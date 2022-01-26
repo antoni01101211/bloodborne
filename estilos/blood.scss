@@ -1,8 +1,17 @@
 @import "variables";
 $color-blood:red;
+$color-fondo:black
+$margin90:{
+    margin: auto,
+    width:90%
+
+};
+@mixin color{
+    color:$color-blood
+    background-color:$color-fondo
+}
 h1{
-    color: $color-blood;
-    background-color: black;
+    @include color;
     text-align: center;
     margin: 0px;
     padding: 0px;
@@ -35,25 +44,24 @@ ul.menu{
             text-decoration: none; 
             
             &:hover{
-                background-color: black;
-                color: $color-blood;
+                @include color;
             } 
     } 
     }
 }
 
 div.subtitle{ 
-         width: 90%;
+         width: map-get($margin90,margin);
          margin: auto;
          margin-top: 100px;
          margin-bottom: 100px;
          h1{
-            color: blood;
-            background-color: black;
+            @include color;
             text-align: center;
             opacity: 0.8;
          }
 }
+
 @import "inicio";
 @import "peleas";
 @import "ayuda";
