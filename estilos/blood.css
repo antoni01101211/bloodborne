@@ -35,19 +35,19 @@ ul.menu li a {
 }
 
 ul.menu li a:hover {
-  background-color: black;
   color: red;
+  background-color: black;
 }
 
 div.subtitle {
-  width: 90%;
+  width: auto;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
 div.subtitle h1 {
-  color: blood;
+  color: red;
   background-color: black;
   text-align: center;
   opacity: 0.8;
@@ -133,6 +133,12 @@ section.obras div.game img {
   height: 100%;
 }
 
+section.wrapper {
+  width: 90%;
+  height: 500px;
+  background-color: black;
+}
+
 section.conjunto {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -159,9 +165,9 @@ section.conjunto div.botones ul.jefes {
 }
 
 section.conjunto div.botones ul.jefes li.jefes a {
+  color: red;
   background-color: black;
   border-radius: 10px 0;
-  color: red;
   margin: 10px;
   padding: 10px;
   text-decoration: none;
@@ -224,8 +230,8 @@ section.conjunto div.video2 iframe {
 }
 
 div.formulario {
-  background-color: black;
   color: red;
+  background-color: black;
   font-weight: bolder;
   border-radius: 10px;
   height: 1400px;
@@ -282,5 +288,4 @@ section.box-datos img {
   height: 100%;
   margin: auto;
 }
-
 /*# sourceMappingURL=blood.css.map */

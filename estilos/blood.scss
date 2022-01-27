@@ -1,13 +1,13 @@
 @import "variables";
 $color-blood:red;
-$color-fondo:black
-$margin90:{
+$color-fondo:black;
+$margin90:(
     margin: auto,
     width:90%
 
-};
+);
 @mixin color{
-    color:$color-blood
+    color:$color-blood;
     background-color:$color-fondo
 }
 h1{
