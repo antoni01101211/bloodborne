@@ -269,6 +269,7 @@ section.caja-personajes {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 section.caja-personajes section.cartas {

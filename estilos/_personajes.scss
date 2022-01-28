@@ -9,6 +9,7 @@ section.caja-personajes{
     grid-template-columns: repeat(5,15%);
     gap: 25px;
     justify-content: center;
+    position: relative;
     section.cartas{
         width: 60%;
         margin: auto;
