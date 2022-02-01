@@ -3,17 +3,240 @@ section.caja-personajes{
     width: 90%;
     height: 700px;
     margin: auto;
-    margin-top: 150px;
-    display: flex;
-    grid-template-rows: repeat(5,45%);
-    grid-template-columns: repeat(5,15%);
-    gap: 25px;
-    justify-content: center;
-    position: relative;
-    section.cartas{
-        width: 60%;
-        margin: auto;
-        margin-bottom: 200px;
-        margin-top: 100px; 
-    }
+    
 }
+
+/* Hover Card 
+.......................................................................*/
+div.catCard {
+    border: solid 1px black;
+    background: black;
+    width: 221px;
+    height: 400px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    font-size: small;
+    img{
+        border: black;
+    }
+  }
+  div.lowerCatCard {
+    position: absolute; 
+    background: black;
+    color: white;
+    padding: 5px 5px; 
+    height: 200px;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition:    all 0.6s ease;
+    -o-transition:      all 0.6s ease;
+    transition:         all 0.6s ease;
+  }
+  div.lowerCatCard:hover {
+    opacity: 0.95;
+    bottom: 0;
+    height: 390px;
+  }
+  div.catCard  div.lowerCatCard { 
+    left: 0; 
+    bottom: -3%;
+    width: 215px;
+  }
+  div.catCard:hover div.lowerCatCard { 
+    bottom: 0;
+  }
+  li.catCardList {
+    width:225px;
+    display: inline-block;
+    margin-right: 19px;
+    margin-top: 25px;
+  }
+  li.catCardList-last {
+    margin-right: 0;
+    width:225px;
+    display: inline-block;
+  }
+  ul.catCardList {
+    margin: 0;
+  }
+  #catCardButton {
+    position: absolute;
+    width: 190px;
+    bottom: 5px;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition:    all 0.6s ease;
+    -o-transition:      all 0.6s ease;
+  }
+  div.lowerCatCard:hover #catCardButton {
+    bottom: 5px;
+  }
+  .startingPrice span {
+    font-size: 16px;
+    color: #c90c12;
+    font-weight: 300;
+  }
+  div.startingPrice {
+    margin-bottom: 5px;
+    color: #000;
+    font-weight: 300;
+  }
+  .catCard img {
+    border: 1px solid #dddddd;
+    width: 219px;
+    height: 198px;
+  }
+  .catCard img:hover {
+    border: 1px solid #bababa;
+  }
+  
+  /* Button 
+  .......................................................................*/
+  .button {
+    cursor: pointer;
+    font-size: 14px !important;
+    color: #ffffff;
+    padding: 7px 10px !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0 !important;
+    background: #000;
+    border: none;
+    border-bottom: solid 1px #c90c12;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .button:hover {
+    background-color: black;
+    border: none;
+    border-bottom: solid 1px #000;
+    box-shadow: 0 2px 3px #a8a8a8;
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+  }
+  .button:active {
+    background: black;
+  }
+  .button a {
+    color: #ffffff;
+    padding: 7px 30px !important;
+    text-decoration: none;
+  }
+  .button a:hover {
+    color: red;
+  }
+  .button:hover {
+      color: #fff;
+  }
+
+  /*redes sociales*/
+
+  .twitter {
+    font: normal normal 10px Arial;
+    text-align: center;
+    color: #998578;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .twitter {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 14px;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+  
+  .twitter:hover {
+    color: #FF7D6D;
+    text-decoration: none;
+  }
+  
+  span {
+    font-style: italic;
+    display: block;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  /* Floating Social Media Bar Style Starts Here */
+  
+  .fl-fl {
+    background: #000000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 4px;
+    width: 190px;
+    position: fixed;
+    right: -160px;
+    z-index: 1000;
+    font: normal normal 10px Arial;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+  
+  .fa {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+    width: 40px;
+    margin-left: 8px;
+  }
+  /* efecto de salir redes sociales*/
+  .fl-fl:hover {
+    right: 0;
+  }
+  
+  .fl-fl a {
+    color: #fff !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px!important;
+    vertical-align: top!important;
+  }
+  
+  .float-fb {
+    top: 160px;
+  }
+  .float-fb:hover{
+    background-color: blue
+  }
+  
+  .float-tw {
+    top: 215px;
+  }
+  .float-tw:hover {
+    background: linear-gradient(to right, #f9ed32, #ee2a7b)
+  }
+  
+  .float-gp {
+    top: 270px;
+  }
+  .float-gp:hover{
+    background-color: rgb(25, 238, 78);
+  }
+  .float-rs {
+    top: 325px;
+  }
+  .float-rs:hover {
+    background: red;
+  }
+  
+  .float-ig {
+    top: 380px;
+  }
+  
+  .float-pn {
+    top: 435px;
+  }
