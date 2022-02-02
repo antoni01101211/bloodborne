@@ -18,3 +18,36 @@ div.formulario{
       }
     }
 }
+
+section.formulario1{
+  width: 70%;
+  height: 900 px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  border: 1px solid ;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  padding: 40px;
+  background-color: black;
+  color: red;
+  div input.comentario{
+    width: 200px;
+    height: 50px;
+    transition: all 1s;
+    &:focus{
+        width: 500px;
+        height: 250px;
+}
+}
+.btn{
+  background-color: red;
+  color: black;
+  margin-right: 0%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  &:hover{
+    background-color: black;
+    color: red;
+  }
+}
+}
