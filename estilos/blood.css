@@ -151,7 +151,6 @@ section.wrapper {
   height: auto;
   margin: auto;
   margin-bottom: 300px;
-  border: 2px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -198,7 +197,7 @@ section.wrapper {
 
 .back {
   background: #cedce7;
-  background: linear-gradient(45deg, black 0%, red 100%);
+  background: linear-gradient(45deg, black 20%, red 100%);
 }
 
 .front:after {
@@ -210,7 +209,7 @@ section.wrapper {
   height: 100%;
   content: '';
   display: block;
-  opacity: 0.2;
+  opacity: 0.5;
   background-color: #000;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
