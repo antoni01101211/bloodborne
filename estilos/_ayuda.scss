@@ -137,10 +137,7 @@ section.pro {
   .container {
     max-width: 1044px;
     margin: 0 auto;
-    padding: 0 20px;
-    
-    
-}
+    padding: 0 20px; }
 }
 
 
@@ -160,7 +157,8 @@ section.pro {
         overflow: hidden;
         padding: 0;
         position: absolute;
-
+        
+        &:nth-of-type(8):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -700%; }
         &:nth-of-type(7):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -600%; }
         &:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -500%; }
         &:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -400%; }
@@ -176,6 +174,7 @@ section.pro {
         &:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) { box-shadow: 0px 0px 0px 5px red; }
         &:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) { box-shadow: 0px 0px 0px 5px red; }
         &:nth-of-type(7):checked ~ .carousel__thumbnails li:nth-of-type(7) { box-shadow: 0px 0px 0px 5px red; }
+        &:nth-of-type(8):checked ~ .carousel__thumbnails li:nth-of-type(8) { box-shadow: 0px 0px 0px 5px red; }
 
 
     }
@@ -221,10 +220,10 @@ section.pro {
     }
     // descripcion de la imagen el texto
     figcaption {
-        align-self: flex-end;
+        align-self: center;
         padding: 20px 20px 0 20px;
         flex: 0 0 auto;
-        width: 25%;
+        width: 30%;
         min-width: 150px;
         color: #F5F7FA;
     }

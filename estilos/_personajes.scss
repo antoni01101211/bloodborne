@@ -205,22 +205,22 @@ div.catCard {
     opacity: 0.25;
   }
   .owl-carousel .owl-prev {
-    left: -45px;
+    left: -35px;
   }
   .owl-carousel .owl-next {
     right: -35px;
   }
-  .owl-theme .owl-nav .owl- {
-    color: #ffffff;
-    font-size: 49px;
+  .owl-theme.owl-nav.owl {
+    color: red;
+    font-size: 59px;
     background: #000000;
     border-radius: 3px;
   }
-  .owl-carousel .prev-carousel:hover {
+  .owl-carousel.prev-carousel:hover {
     background-position: 0px -53px;
     
   }
-  .owl-carousel .next-carousel:hover {
+  .owl-carousel.next-carousel:hover {
     background-position: -24px -53px;
   }
   
