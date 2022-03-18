@@ -48,7 +48,7 @@ function validarFormulario(e){
 
     e.target.style.border.remove = '2.5px solid red';
     e.target.style.border = '2.5px solid green';
-
+// aqui se uso un metodo de filtrado y busqueda
     if(e.target.value.length > 0){
         const error = document.querySelector('p.error')
         if(error){
