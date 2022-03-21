@@ -137,6 +137,7 @@ function enviarEmail(e){
         parrafo.remove();// quita el mensaje de enviado despues de un tiempo
         
         resetearFormulario();//llama a la funcion
+        iniciarApp();
     },3000);
     },3000); 
 }
