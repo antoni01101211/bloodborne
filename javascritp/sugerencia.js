@@ -1,7 +1,6 @@
 // variables 
 const botonEnviar = document.querySelector('#enviar');
 const formulario = document.querySelector('#formulario1');
-const btnReset = document.querySelector('#btnreset')
 
 // variable de validacion email de forma global usando una expresion regular
 const er = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -99,8 +98,8 @@ function mostrarError(mensaje){
     mensajeError.textContent = mensaje;
     mensajeError.style.width = '500px'
     mensajeError.style.height = '10 px'
-    mensajeError.style.border = '3px solid white'
-    mensajeError.style.color = 'white'
+    mensajeError.style.border = '3px solid red'
+    mensajeError.style.color = 'red'
     mensajeError.style.padding = '3px'
     mensajeError.style.margin = 'auto'
     mensajeError.style.textAlign = 'center'
@@ -136,12 +135,8 @@ function enviarEmail(e){
     setTimeout(()=>{
         parrafo.remove();// quita el mensaje de enviado despues de un tiempo
         
-        resetearFormulario();//llama a la funcion
-    },2000);
-    },2000); 
+    },3000);
+    },3000); 
 }
 //reset del formulario despues de enviado
 
-function resetearFormulario(){
-    formulario.reset(); 
- }
